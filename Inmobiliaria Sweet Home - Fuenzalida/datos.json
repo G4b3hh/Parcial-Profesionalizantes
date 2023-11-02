@@ -1,0 +1,60 @@
+{
+    "propiedades": [
+      {
+        "imagen": "dep1.jpg",
+        "titulo": "Departamento de Lujo en la Ciudad",
+        "descripcion": "Disfruta de una vida sofisticada en este departamento de lujo ubicado en el corazón de la ciudad. Con una o dos habitaciones, acabados de alta gama y comodidades de primer nivel, este departamento te brinda un estilo de vida exclusivo.",
+        "direccion": "Saraceno St .57",
+        "antiguedad": "12 Años",
+        "metros": "29 m²",
+        "estado": "Limpio",
+        "precio": 200000,
+        "enlace": "dpto1.html"
+      },
+      {
+        "imagen": "dep2.jpg",
+        "titulo": "Departamento estándar de dos ambientes",
+        "descripcion": "Cuenta con una sala de estar luminosa y espaciosa, una cocina con área de comedor, dos baños completos y dos habitaciones confortables con espacio para camas y armarios. Los acabados de calidad, comodidades modernas y distribución inteligente del espacio.",
+        "direccion": "Malaquita St 89",
+        "antiguedad": "6 Años",
+        "metros": "32 m²",
+        "estado": "Excelente",
+        "precio": 9000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "dep3.jpg",
+        "titulo": "Departamento un ambiente",
+        "descripcion": "Cuenta con una sala de estar acogedora, una cocina equipada con electrodomésticos básicos, un baño completo y una habitación amplia con espacio para una cama y un armario.",
+        "direccion": "Nurbungring St 21",
+        "antiguedad": "7 Años",
+        "metros": "31 m²",
+        "estado": "Excelente",
+        "precio": 200000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "dep4.jpg",
+        "titulo": "Departamento Superior en Zona Céntrica",
+        "descripcion": "Disfruta de un estilo de vida urbano en este departamento superior ubicado en una zona céntrica. Con una o dos habitaciones, espacios bien diseñados y acabados de alta calidad, este departamento te ofrece comodidad y conveniencia en la ciudad.",
+        "direccion": "Laguna Pelada St 312",
+        "antiguedad": "15 Años",
+        "metros": "22 m²",
+        "estado": "Limpio",
+        "precio": 10000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "dep5.jpg",
+        "titulo": "Suite Familiar en Barrio Exclusivo",
+        "descripcion": "Ideal para familias, esta suite familiar está ubicada en un exclusivo barrio residencial. Con una o dos habitaciones, áreas de convivencia amplias y servicios adicionales, este departamento te brinda un entorno seguro y confortable para ti y tu familia.",
+        "direccion": "Nicolas Cage St 78",
+        "antiguedad": "2 Años",
+        "metros": "57 m²",
+        "estado": "Impecable",
+        "precio": 600000,
+        "enlace": "#"
+      }
+    ]
+  }
+  

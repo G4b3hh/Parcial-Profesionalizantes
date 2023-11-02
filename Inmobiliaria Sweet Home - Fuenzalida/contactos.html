@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta hgttp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>  
+
+<body>
+  <header>
+    
+    <div class="logo">
+
+      <a href="index.html">
+        <img src="logo.png" alt="logo">
+      </a>
+    </div>
+
+    <nav>
+      <a href="index.html"> > Inicio</a>
+      <a href="contactos.html">> Contactanos</a>
+      <a href="nosotros.html">> Nosotros</a>
+    </nav>
+  </div>
+</header>
+
+
+ <form>
+  <div class="contastos">
+ <h2>Contactanos</h2>
+ <h5>"¿Interesado en alguna de nuestras propiedades? ¡Nos encantaría escuchar de ti! Si tienes alguna pregunta, deseas programar una visita o recibir más información sobre alguna de las casas en venta, no dudes en contactarnos. Nuestro equipo de agentes expertos está listo para ayudarte en cada paso del proceso de compra. Llena el formulario de contacto a continuación o llámanos al número proporcionado. Estamos comprometidos en brindarte un servicio de calidad y encontrar la casa perfecta que se ajuste a tus necesidades y presupuesto. ¡Esperamos poder ayudarte a hacer realidad tu sueño de tener un nuevo hogar!"</h5>
+</div>
+<form id="contactForm">
+  <div class="input-group">
+      <label for="name">Nombre</label>
+      <input type="text" name="name" id="name" placeholder="Nombre">
+      <span id="nameError" class="error"></span>
+
+      <label for="phone">Teléfono</label>
+      <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+      <span id="phoneError" class="error"></span>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Email">
+      <span id="emailError" class="error"></span>
+
+      <label for="message">Mensaje</label>
+      <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+      <span id="messageError" class="error"></span>
+
+      <div class="formtxt">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos y condiciones</a>
+      </div>
+
+      <input class="btn" type="submit" value="Enviar">
+  </div>
+</form>
+<script>
+  const form = document.getElementById('contactForm');
+  const nameInput = document.getElementById('name');
+  const phoneInput = document.getElementById('phone');
+  const emailInput = document.getElementById('email');
+  const messageInput = document.getElementById('message');
+  const nameError = document.getElementById('nameError');
+  const phoneError = document.getElementById('phoneError');
+  const emailError = document.getElementById('emailError');
+  const messageError = document.getElementById('messageError');
+
+  form.addEventListener('submit', function (event) {
+      
+      nameError.textContent = '';
+      phoneError.textContent = '';
+      emailError.textContent = '';
+      messageError.textContent = '';
+
+      let valid = true;
+
+      
+      if (nameInput.value.trim() === '') {
+          nameError.textContent = 'El nombre es obligatorio';
+          valid = false;
+      }
+
+      
+      const phonePattern = /^\d{10}$/; 
+      if (!phonePattern.test(phoneInput.value)) {
+          phoneError.textContent = 'El teléfono debe contener 10 dígitos';
+          valid = false;
+      }
+
+      
+      const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+      if (!emailPattern.test(emailInput.value)) {
+          emailError.textContent = 'El email no es válido';
+          valid = false;
+      }
+
+      
+      if (messageInput.value.trim() === '') {
+          messageError.textContent = 'El mensaje es obligatorio';
+          valid = false;
+      }
+
+      if (!valid) {
+          event.preventDefault();
+      }
+  });
+</script>
+
+ <footer class="footer">
+  
+    <div class="contene">
+        <div class="pieses">
+         <div class="logos">
+          <img src="logo.png" alt="logos">
+        </div>
+        <div class="cp">
+        <h2>&copy;Sweet Home,Todos los derechos reservados</h2>
+      </div>
+  
+        <div class="footer-links">
+  
+          <h4>Siguenos</h4>
+          <ul>
+            <li><a href="#">SweetHomeInmobiliariaoff@gmail.com</a></li> <img src="gmail.png" alt="red">
+            <li><a href="#">@SweetHomeINM</a></li> <img src="instagram.png" alt="red">
+            <li><a href="#">@INMSweetH</a></li> <img src="twitter.png" alt="red">
+          </ul>
+        </div>
+  
+        </div>
+     </div>
+  
+  
+  </footer>
+
+
+
+
+
+</body>

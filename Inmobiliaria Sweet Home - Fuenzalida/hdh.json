@@ -1,0 +1,60 @@
+{
+    "habitaciones": [
+      {
+        "imagen": "hab1.jpg",
+        "titulo": "Habitación Estandar",
+        "descripcion": "Nuestra habitación estándar es ideal para viajeros que buscan una estancia cómoda y asequible. Con comodidades modernas y un ambiente acogedor, esta habitación te brinda todo lo que necesitas para una estancia agradable.",
+        "direccion": "Stephenking St.- 30",
+        "antiguedad": "2 Años",
+        "metros": "41 m²",
+        "estado": "Impecable",
+        "precio": 12000,
+        "enlace": "hdh1.html"
+      },
+      {
+        "imagen": "hab3.jpg",
+        "titulo": "Habitación Doble con vista al mar",
+        "descripcion": "Ideal para parejas o amigos, nuestra habitación doble con vista al mar ofrece dos cómodas camas individuales y una vista espectacular. Disfruta de la brisa marina y relájate en este acogedor espacio junto al mar.",
+        "direccion": "Stephenking St. 30",
+        "antiguedad": "2 Años",
+        "metros": "32 m²",
+        "estado": "Impecable",
+        "precio": 14000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "hab4.jpg",
+        "titulo": "Habitación Deluxe con vista al mar",
+        "descripcion": "Disfruta de unas impresionantes vistas al mar desde esta amplia habitación. Equipada con todas las comodidades modernas, esta habitación te brinda un ambiente lujoso y relajante durante tu estancia.",
+        "direccion": "Stephenking St. 30",
+        "antiguedad": "2 Años",
+        "metros": "47 m²",
+        "estado": "Impecable",
+        "precio": 15000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "hab5.jpg",
+        "titulo": "Habitación Deluxe con Vista a la Naturaleza",
+        "descripcion": "Disfruta de una vista panorámica hacia la exuberante naturaleza desde esta habitación deluxe. Ventanales que permiten apreciar el entorno natural y comodidades de lujo, esta habitación te brinda una experiencia inigualable en armonía con la naturaleza.",
+        "direccion": "Rawson St. 24",
+        "antiguedad": "7 Años",
+        "metros": "51 m²",
+        "estado": "Impecable",
+        "precio": 15000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "hab2.jpg",
+        "titulo": "Suite Vista al Mar",
+        "descripcion": "Sumérgete en la serenidad del mar desde nuestra suite con vista al mar. Con un amplio espacio, una cama king-size y una sala de estar separada, esta suite te brinda el máximo confort y una vista impresionante del océano.",
+        "direccion": "Notesberg St. 56",
+        "antiguedad": "7 Años",
+        "metros": "31 m²",
+        "estado": "Impecable",
+        "precio": 17000,
+        "enlace": "#"
+      }
+    ]
+  }
+  

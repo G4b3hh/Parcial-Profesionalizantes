@@ -1,0 +1,60 @@
+{
+    "viviendas": [
+      {
+        "imagen": "casa1.jpg",
+        "titulo": "Groove Street, dos pisos, sin cochera",
+        "descripcion": "Esta encantadora casa de dos pisos combina el estilo moderno con la funcionalidad en un espacio compacto. A pesar de su tamaño modesto, esta vivienda ha sido diseñada de manera inteligente para aprovechar al máximo cada centímetro y brindar una experiencia de vida cómoda y contemporánea.",
+        "direccion": "Groove Street .33",
+        "antiguedad": "8 Años",
+        "metros": "27 m²",
+        "estado": "Pulcro",
+        "precio": 120000,
+        "enlace": "casa1.html"
+      },
+      {
+        "imagen": "casa2.jpg",
+        "titulo": "Collinham St. vista al mar",
+        "descripcion": "Esta acogedora casa te ofrece un refugio tranquilo y cómodo. Con una distribución inteligente y espacios bien aprovechados, encontrarás todo lo necesario para una vida cómoda. Aunque no cuenta con una piscina ni un garaje, podrás disfrutar de una hermosa vista al mar.",
+        "direccion": "Collinham St.- 57",
+        "antiguedad": "1 Año",
+        "metros": "25 m²",
+        "estado": "Impecable",
+        "precio": 180000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "casa3.jpg",
+        "titulo": "Ilene St. con cochera",
+        "descripcion": "Esta encantadora casa te ofrece comodidad y practicidad en cada rincón. Con amplios espacios interiores, una cocina funcional y habitaciones acogedoras, encontrarás todo lo necesario para vivir cómodamente. Además, cuenta con un espacioso garaje donde puedes estacionar tus vehículos con seguridad.",
+        "direccion": "Ilene St.- 28",
+        "antiguedad": "8 Años",
+        "metros": "36 m²",
+        "estado": "Renovada",
+        "precio": 299000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "casa4.jpg",
+        "titulo": "Almadena Street, con piscina",
+        "descripcion": "Disfruta de un estilo de vida de lujo en esta hermosa casa con piscina y garaje. Esta propiedad cuenta con amplios espacios interiores, una moderna cocina equipada, habitaciones espaciosas y un diseño arquitectónico elegante. El patio trasero presenta una hermosa piscina donde podrás relajarte y disfrutar de momentos inolvidables.",
+        "direccion": "Almadena Street 23",
+        "antiguedad": "12 Años",
+        "metros": "41 m²",
+        "estado": "Renovada",
+        "precio": 290000,
+        "enlace": "#"
+      },
+      {
+        "imagen": "casa5.jpg",
+        "titulo": "Casa Contemporánea con piscina",
+        "descripcion": "Sumérgete en el lujo y la tranquilidad de esta impresionante casa. Con una exquisita arquitectura y un diseño contemporáneo, el patio trasero cuenta con una espectacular piscina donde podrás refrescarte y relajarte. Hay opciones de estacionamiento cercanas para satisfacer tus necesidades.",
+        "direccion": "Stiburging.- 21",
+        "antiguedad": "9 Años",
+        "metros": "62 m²",
+        "estado": "Excelente",
+        "precio": 290000,
+        "enlace": "#"
+      }
+    ]
+  }
+  
